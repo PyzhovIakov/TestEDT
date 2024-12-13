@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc1b6ecd-a34a-41ed-94c5-24a5b7984ab9">
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc1b6ecd-a34a-41ed-94c5-24a5b7984ab9">
   <producedTypes>
     <selectionType typeId="f51b826d-f6c4-4716-aae4-b10b0ff190e9" valueTypeId="7d540f08-b3cc-4baa-9a00-87763c7bc533"/>
     <listType typeId="df1e663e-f794-4150-95aa-76601aa08508" valueTypeId="fcbe82ab-95a3-4aa8-8f59-14f5bab2d639"/>
@@ -15,6 +15,44 @@
     <value>Управленческий</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="6d26dc4e-deb6-4664-98bc-8c04c787aa59">
+    <name>СуммаРуб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма руб</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйРуб</extDimensionAccountingFlag>
+  </resources>
+  <resources uuid="401eedd9-54ea-4c52-9ed6-d78232d926bf">
+    <name>СуммаВал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма вал</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <extDimensionAccountingFlag>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйВал</extDimensionAccountingFlag>
+  </resources>
 </mdclass:AccountingRegister>

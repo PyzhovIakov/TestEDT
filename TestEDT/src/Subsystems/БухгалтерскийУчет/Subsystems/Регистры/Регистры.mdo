@@ -7,5 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccountingRegister.Управленческий</content>
+  <content>InformationRegister.КурсыВалют</content>
   <parentSubsystem>Subsystem.БухгалтерскийУчет</parentSubsystem>
 </mdclass:Subsystem>

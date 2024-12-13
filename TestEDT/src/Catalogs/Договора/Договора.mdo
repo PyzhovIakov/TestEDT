@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e989a39b-3b8d-4b56-bab9-e8bed8cafe3a">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e989a39b-3b8d-4b56-bab9-e8bed8cafe3a">
   <producedTypes>
     <objectType typeId="faf8766f-bf04-4ead-bf44-ea421510995a" valueTypeId="a713d7ae-0e01-4f40-b490-fcbef91f4af3"/>
     <refType typeId="fce60801-d42d-4e64-a84e-b52cb8a89d48" valueTypeId="29895838-1120-4861-9c0a-6f19ae98cd2e"/>
@@ -31,4 +31,19 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c9e17f36-3c97-4b8a-b1c0-253ec4b1bcb7">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
