@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78ddee37-e3e6-44c4-96d8-1fc36fbab9dc">
+  <name>ПланыВидовРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы видов расчета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.БухгалтерскийУчет</parentSubsystem>
+</mdclass:Subsystem>
