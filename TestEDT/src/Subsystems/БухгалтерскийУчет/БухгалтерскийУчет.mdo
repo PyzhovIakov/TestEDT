@@ -11,7 +11,7 @@
     <picture>CommonPicture.БухгалтерскийУчет</picture>
   </picture>
   <subsystems>Документы</subsystems>
-  <subsystems>ПланыВидовРасчета</subsystems>
+  <subsystems>ПланыВидовХарактеристик</subsystems>
   <subsystems>ПланыСчетов</subsystems>
   <subsystems>Регистры</subsystems>
   <subsystems>Справочники</subsystems>

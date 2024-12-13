@@ -94,7 +94,9 @@
   <createOnInput>DontUse</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <type>
-    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Договора</types>
+    <types>CatalogRef.Валюты</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -105,11 +107,27 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="da4b2361-c1cc-4fcd-aec9-bd9e7b5fb410">
-      <name>Номенклатура</name>
-      <description>Номенклатура</description>
+      <name>Контрагент</name>
+      <description>Контрагент</description>
       <code>000000001</code>
       <type>
-        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="db6eadc1-b2da-40ad-814f-479237c2eb93">
+      <name>Договор</name>
+      <description>Договор</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Договора</types>
+      </type>
+    </items>
+    <items id="d15b39ae-cbeb-4ee3-8da6-18d11aef6514">
+      <name>Валюта</name>
+      <description>Валюта</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Валюты</types>
       </type>
     </items>
   </predefined>

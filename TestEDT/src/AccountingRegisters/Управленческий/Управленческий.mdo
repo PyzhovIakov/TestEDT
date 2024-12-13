@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc1b6ecd-a34a-41ed-94c5-24a5b7984ab9">
+  <producedTypes>
+    <selectionType typeId="f51b826d-f6c4-4716-aae4-b10b0ff190e9" valueTypeId="7d540f08-b3cc-4baa-9a00-87763c7bc533"/>
+    <listType typeId="df1e663e-f794-4150-95aa-76601aa08508" valueTypeId="fcbe82ab-95a3-4aa8-8f59-14f5bab2d639"/>
+    <managerType typeId="3ca12637-d8ac-4824-9d79-03b5a255b68c" valueTypeId="5bbcc604-7c65-47bc-ae0b-4e6f17175f61"/>
+    <recordSetType typeId="4baef5d1-ba18-4ae5-b310-7c2606d9c7df" valueTypeId="b93835f0-4c17-453a-8765-b7b25a70ccb3"/>
+    <recordKeyType typeId="2d5de119-4f48-4bb4-b27f-159072e4bb69" valueTypeId="2430c055-e4f5-4ed9-a062-4078de714343"/>
+    <recordType typeId="484fa0a3-e12e-4917-bf91-6cfb4e46e822" valueTypeId="cbb8cafa-7d65-47a0-a6d4-7bcea9039b06"/>
+    <extDimensionsType typeId="cafdf674-afae-41b3-a55a-fc258cc546cc" valueTypeId="c328fec4-468d-40d7-9283-15055a0b882b"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+</mdclass:AccountingRegister>

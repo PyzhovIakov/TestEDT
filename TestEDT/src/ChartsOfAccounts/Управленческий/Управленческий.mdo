@@ -111,6 +111,8 @@
     <key>ru</key>
     <value>План счетов бухгалтерского учета &quot;Управленческий&quot;</value>
   </extendedListPresentation>
+  <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
+  <maxExtDimensionCount>3</maxExtDimensionCount>
   <codeMask>@@.@@</codeMask>
   <codeLength>5</codeLength>
   <descriptionLength>50</descriptionLength>
@@ -186,6 +188,21 @@
         <code>01.04</code>
         <accountType>ActivePassive</accountType>
         <order>01.04</order>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Контрагент</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйРуб</extDimensionAccountingFlags>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйВал</extDimensionAccountingFlags>
+        </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Договор</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйРуб</extDimensionAccountingFlags>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйВал</extDimensionAccountingFlags>
+        </extDimensionTypes>
+        <extDimensionTypes>
+          <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Валюта</characteristicType>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйРуб</extDimensionAccountingFlags>
+          <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.СуммарныйВал</extDimensionAccountingFlags>
+        </extDimensionTypes>
       </childItems>
       <childItems id="eb85509a-60af-4880-b660-8c70b9158956">
         <name>ОсновноеПроизводство</name>
@@ -266,4 +283,32 @@
   <choiceMode>BothWays</choiceMode>
   <autoOrderByCode>true</autoOrderByCode>
   <orderLength>5</orderLength>
+  <extDimensionAccountingFlags uuid="a6acbea6-43b4-4570-8e82-794e7caed2c5">
+    <name>СуммарныйРуб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммарный руб</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="0dde761b-e1aa-4b7f-b2b1-692c441309e5">
+    <name>СуммарныйВал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммарный вал</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
 </mdclass:ChartOfAccounts>

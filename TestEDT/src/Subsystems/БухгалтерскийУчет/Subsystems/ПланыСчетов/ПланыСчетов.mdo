@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfAccounts.Управленческий</content>
   <parentSubsystem>Subsystem.БухгалтерскийУчет</parentSubsystem>
 </mdclass:Subsystem>
