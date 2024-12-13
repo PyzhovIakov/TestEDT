@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="004fb56f-a3f3-4c74-b8dd-d32602bf85d7">
+  <producedTypes>
+    <objectType typeId="8ea23e8c-0944-4f98-87fc-1dc1f1718d5f" valueTypeId="4115d769-1272-4d5e-98f9-1ccbd8024f50"/>
+    <refType typeId="c1349880-7cbb-420a-bdbf-52dca9924c36" valueTypeId="0f70a231-3c2a-4083-b3f3-052732d63e5f"/>
+    <selectionType typeId="f14e00c8-469b-479b-83f7-5e7aefe67972" valueTypeId="fa4a6674-82d1-4d21-93d7-b8b8a9e4500f"/>
+    <listType typeId="fcf32cce-5352-4173-b23f-6dc6349a4e16" valueTypeId="8d0272d4-d8ad-4055-aaf4-a88c64f7379e"/>
+    <managerType typeId="7bd14687-0b87-425e-883e-505ed028e577" valueTypeId="13d51032-5b3a-4a88-8087-adf39acec840"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УчетнаяПолитика.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a1edb20b-8e39-492c-998f-8fc9f4bdd746">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная политика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
